@@ -26,7 +26,7 @@ document.onkeyup = function (event) {
             currentletter = alphabet[Math.floor(Math.random() * 26)];
         }
         else if(guessesleft<1){
-            //reset the game state except wins and losses
+            //losses reset the game state except wins and losses
             losses++;
             alert("You lose!");
             guessesleft=9;
